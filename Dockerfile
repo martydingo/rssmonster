@@ -1,7 +1,7 @@
 FROM node:11.6-alpine
 
 RUN apk update
-RUN apk add g++ make python
+RUN apk add g++ make python git
 
 WORKDIR /app/client
 ADD ./client /app/client
